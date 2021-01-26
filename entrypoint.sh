@@ -4,4 +4,4 @@ gem install bundle
 
 bundle install --path=./path
 
-exec "$@"
+bundle exec ruby gen.rb
